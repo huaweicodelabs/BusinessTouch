@@ -1,0 +1,43 @@
+buildscript {
+    repositories {
+        google()
+        jcenter()
+        maven { url 'https://developer.huawei.com/repo/' }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.4.1'
+    }
+}
+
+allprojects {
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+        google()
+        jcenter()
+        maven { url 'https://developer.huawei.com/repo/' }
+    }
+}
+
+ext {
+    typeMap = [
+            'HMS_generateStubCode': false,
+            'HMS_changeClassMethod': false,
+            'HMS_mergePermission': false,
+            'HMS_moveSoLib': false,
+            'HMS_explicitStubClass': false,
+            'KIT_manifestCheck': false,
+            'KIT_apiCheck': false,
+            'KIT_changeSuperClass': true,
+            'KIT_explicitStubClass': false,
+            'KIT_modifyProviderFun': false,
+            'KIT_generateFragment': true,
+            'KIT_generateMetaData': false
+    ]
+    printLog = ""
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

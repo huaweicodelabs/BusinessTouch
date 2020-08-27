@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="lives_functional_yellow">#FF8300</color>
+    <color name="colorTransparent_15">#00ff00ff</color>
+
+    <color name="ThemeColor_orange_04">#ff8d3d</color>
+    <color name="ThemeColor_orange_05">#ff7500</color>
+
+    <color name="ThemeColor_04">#8c91a7</color>
+    <color name="ThemeColor_05">#686f8b</color>
+
+    <color name="ThemeColor_grey">#f0f0f0</color>
+    <color name="DividercColor">#4a4a4a</color>
+</resources>

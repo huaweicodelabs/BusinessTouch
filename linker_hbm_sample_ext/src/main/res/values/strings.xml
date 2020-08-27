@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">我的服务</string>
+    <string name="title_activity_sample_enter">我的服务</string>
+    <string name="str_method">接口方法</string>
+    <string name="str_method_explanation">接口注释</string>
+</resources>
